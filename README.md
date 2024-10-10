@@ -1,4 +1,4 @@
-## Stock Analysis - Intel, Nvidia, AMD
+# Stock Analysis - Intel, Nvidia, AMD
 # Project Overview
 This project involves a comprehensive analysis of the stock prices for three major technology companies: Intel, Nvidia, and AMD. The analysis includes both individual stock assessments and comparative studies to help investors understand trends and make informed decisions. The dataset used spans over 30 years, covering the period from March 1983 to May 2022.
 
