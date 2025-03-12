@@ -12,6 +12,7 @@ The project integrates exploratory data analysis (EDA), visualizations, and mach
      - Highest & lowest close prices
      - Trading volume trends
      - Stock volatility (standard deviation)
+
 2️. Comparative Stock Analysis
  - Daily return percentage calculations for Intel, Nvidia, and AMD.
  - Overall stock price change analysis to determine long-term growth trends.
