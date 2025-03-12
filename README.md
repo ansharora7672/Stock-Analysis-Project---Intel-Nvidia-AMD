@@ -40,11 +40,17 @@ Data Source: Stored in Azure Blob Storage & processed using Spark in Databricks.
 
 # Technologies Used
 Platform: Azure Databricks
+
 Storage: Azure Blob Storage
+
 Data Processing: Apache Spark, Pandas
+
 Visualization: Matplotlib
+
 Machine Learning: Scikit-Learn (Linear Regression)
+
 IDE: Databricks Notebook
+
 Statistical Techniques:
  - Summary Statistics (Mean, Standard Deviation)
  - Daily Return Percentage Calculation
