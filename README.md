@@ -1,38 +1,49 @@
 # Stock Analysis - Intel, Nvidia, AMD
 # Project Overview
-This project involves a comprehensive analysis of the stock prices for three major technology companies: Intel, Nvidia, and AMD. The analysis includes both individual stock assessments and comparative studies to help investors understand trends and make informed decisions. The dataset used spans over 30 years, covering the period from March 1983 to May 2022.
+This project is a comprehensive stock analysis for Intel, Nvidia, and AMD, covering over 30 years of stock market data (March 1983 - May 2022). It was built on Azure Databricks, with stock data stored in Azure Blob Storage and processed using Apache Spark and Pandas for efficient data handling.
 
-By leveraging Python for data analysis and visualization, this project aims to identify trends, irregularities, and insights into the stock performance of these companies. It also uses various statistical techniques and visual tools to showcase the historical behavior of the stocks.
+The project integrates exploratory data analysis (EDA), visualizations, and machine learning to identify trends, irregularities, and stock performance insights, enabling investors to make data-driven investment decisions.
+
 
 # Features
-1. Individual Stock Analysis:
-Provides key statistics such as average stock price, highest/lowest close prices, trading volume, and standard deviation over the chosen time period for each stock.
+1. Individual Stock Analysis
+   Computes key stock metrics like:
+     - Average stock price
+     - Highest & lowest close prices
+     - Trading volume trends
+     - Stock volatility (standard deviation)
+2️. Comparative Stock Analysis
+ - Daily return percentage calculations for Intel, Nvidia, and AMD.
+ - Overall stock price change analysis to determine long-term growth trends.
+3. Data Visualization
+ - Stock price trends over time
+ - Daily return percentage comparison
+ - Machine Learning predictions vs. actual stock prices
+4. Machine Learning for Stock Prediction
+ - This project integrates Linear Regression to forecast stock price movements and investment recommendations.
+ - Predict Next-Day Closing Price → Using Linear Regression
 
-2. Comparative Analysis:
-Compares the performance of Intel, Nvidia, and AMD stocks based on daily return percentages and overall stock price changes over time. This helps identify growth trends and market behavior.
-
-3. Data Visualization:
-Visual representations of stock prices, trends, and comparative performance graphs, created using Python's matplotlib library.
-
-4. Statistical Insights:
-The project includes detailed statistical summaries such as standard deviation, average prices, and percentage returns. These insights provide deeper understanding of stock volatility and growth.
 
 # Dataset
-The dataset consists of historical stock prices for Intel, Nvidia, and AMD, including the following attributes:
+The dataset contains historical stock prices with the following attributes:
 
 Date
 Open Price
 High Price
 Low Price
 Close Price
-Volume
-The dataset is sourced from Kaggle.
+Trading Volume
+Daily Return Percentage (calculated feature)
+Data Source: Stored in Azure Blob Storage & processed using Spark in Databricks.
 
 # Technologies Used
-Programming Language: Python
-Libraries: pandas, numpy, matplotlib
-Statistical Concepts:
-Summary Statistics (Mean, Standard Deviation)
-Daily Return Percentage Calculation
-Conditional Probability
-IDE: VS Code
+Platform: Azure Databricks
+Storage: Azure Blob Storage
+Data Processing: Apache Spark, Pandas
+Visualization: Matplotlib
+Machine Learning: Scikit-Learn (Linear Regression)
+IDE: Databricks Notebook
+Statistical Techniques:
+ - Summary Statistics (Mean, Standard Deviation)
+ - Daily Return Percentage Calculation
+ - Predictive Modeling using Linear Regression
