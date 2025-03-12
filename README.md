@@ -28,13 +28,14 @@ The project integrates exploratory data analysis (EDA), visualizations, and mach
 # Dataset
 The dataset contains historical stock prices with the following attributes:
 
-Date
-Open Price
-High Price
-Low Price
-Close Price
-Trading Volume
-Daily Return Percentage (calculated feature)
+1. Date
+2. Open Price
+3. High Price
+4. Low Price
+5. Close Price
+6. Trading Volume
+7. Daily Return Percentage (calculated feature)
+
 Data Source: Stored in Azure Blob Storage & processed using Spark in Databricks.
 
 # Technologies Used
